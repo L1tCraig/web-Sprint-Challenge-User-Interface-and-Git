@@ -33,14 +33,19 @@ Demonstrate your understanding of this week's concepts by answering the followin
 Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read.
 
 1. If you were to describe semantic HTML to the next cohort of students, what would you say?
-
+    tags used for what they mean. an article, header, or footer would be used for what they mean. whereas a div doesnt have a common use in english.
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
-
+    block visualy stacks inline lines side by side.
 3. What are the 4 areas of the box model?
-
+    inner most to out > 
+        content is the area with your input be it words or an image.
+        padding is the area from the content to the border. the background for the box will fit here.
+        border if defined (dotted dashed solid or however you can dream) is the box around the padding and content.
+        margin the amount of space outside the border. You dont always want everything touching.
 4. While using flexbox, what axis does the following property work on: ```align-items: center```?
-
+    the cross axis typically the verticle axis that disects the main axis so if your main axis (line where content is flowing) is verticle the align items would adjust horizontal.
 5. Explain why git is valuable to a team of developers.
+    allows for collaboration and uniformity. if everyone works the same its easier to work with each other. save and revert changes and easily merge with other devs.
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
